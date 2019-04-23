@@ -31,9 +31,13 @@ class Song
   end
 
   def artists
-    @@artists.each do
-
+    artists_arr
+    @@artists.each_with_index do
+      if !(artists_arr.include?(index))
+        arrtists_arr << index
+      end
     end
+    artists_arr
   end
 
   def genres
