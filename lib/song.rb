@@ -11,7 +11,7 @@ class Song
     @name = name
     @@count += 1
     @artist = artist
-      if @@artists.include?(artist)
+      if !(@@artists.include?(artist))
         @@artists << artist
       end
       @@artist_count[artist] += 1
