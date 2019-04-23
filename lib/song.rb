@@ -18,10 +18,10 @@ class Song
       end
     @@artists << artist
     @genre = genre
-      if @@genres.include?(artist)
-        @@genre_count[artist] += 1
+      if @@genres.include?(genre)
+        @@genre_count[genre] += 1
       else
-        @@genre_count[artist] = 1
+        @@genre_count[agenre] = 1
       end
       @@genres << genre
   end
