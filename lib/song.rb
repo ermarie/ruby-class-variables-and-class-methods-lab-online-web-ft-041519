@@ -15,6 +15,7 @@ class Song
       artist_count[artist] << name
     else
       @@artists[artist] = artist
+    end
     @genre = genre
     @@genres << genre
   end
