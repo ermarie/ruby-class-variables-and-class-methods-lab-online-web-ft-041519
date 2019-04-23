@@ -24,8 +24,12 @@ class Song
     end
   end
 
-  def class
+  def count
     @@count
+  end
+
+  def genre
+    @@genres
   end
 
 end
