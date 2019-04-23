@@ -26,11 +26,11 @@ class Song
       end
   end
 
-  def count
+  def self.count
     @@count
   end
 
-  def artists
+  def self.artists
     artists_arr = []
     @@artists.each_with_index do
       if !(artists_arr.include?(index))
@@ -40,16 +40,16 @@ class Song
     artists_arr
   end
 
-  def genres
+  def self.genres
     @@genres
   end
 
-  def genre_count
+  def self.genre_count
     @@genre_count
   end
 
-  def artist_count
+  def self.artist_count
     @@artist_count
   end
-binding.pry
+
 end
