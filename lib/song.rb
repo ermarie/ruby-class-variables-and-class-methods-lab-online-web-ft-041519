@@ -34,7 +34,7 @@ class Song
     artists_arr = []
     @@artists.each_with_index do
       if !(artists_arr.include?(index))
-        arrtists_arr << index
+        artists_arr << index
       end
     end
     artists_arr
