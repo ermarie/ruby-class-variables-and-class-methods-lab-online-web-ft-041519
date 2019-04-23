@@ -31,8 +31,8 @@ class Song
   end
 
   def artists
-    @@artists.each do 
-      
+    @@artists.each do
+
     end
   end
 
