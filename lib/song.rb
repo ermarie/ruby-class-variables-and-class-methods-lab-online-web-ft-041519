@@ -32,9 +32,9 @@ class Song
 
   def self.artists
     artists_arr = []
-    @@artists.each_with_index do
-      if !(artists_arr.include?(index))
-        artists_arr << index
+    @@artists.each do |artist|
+      if !(artists_arr.include?(artist))
+        artists_arr << artist
       end
     end
     artists_arr
