@@ -24,4 +24,8 @@ class Song
     end
   end
 
+  def class
+    @@count
+  end
+
 end
