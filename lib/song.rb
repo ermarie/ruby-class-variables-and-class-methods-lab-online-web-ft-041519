@@ -31,7 +31,9 @@ class Song
   end
 
   def artists
-    @@artists
+    @@artists.each do 
+      
+    end
   end
 
   def genres
