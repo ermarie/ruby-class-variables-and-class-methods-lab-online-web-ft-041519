@@ -3,6 +3,6 @@ class Song
   @@song_artists = []
   @@song_ genres = []
   @@genre_count = {}
-
+  @@artist_count = {}
 
 end
