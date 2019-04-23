@@ -21,7 +21,7 @@ class Song
       if @@genres.include?(genre)
         @@genre_count[genre] += 1
       else
-        @@genre_count[agenre] = 1
+        @@genre_count[genre] = 1
       end
       @@genres << genre
   end
