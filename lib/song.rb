@@ -18,7 +18,9 @@ class Song
     end
     @genre = genre
     if @@genres.include?(genre)
-    @@genres << genre
+      @@genres << genre
+    else
+      @@genres[genre] = name
   end
 
 end
