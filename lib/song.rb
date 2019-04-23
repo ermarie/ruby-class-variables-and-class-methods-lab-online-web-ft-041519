@@ -21,6 +21,7 @@ class Song
       @@genres << genre
     else
       @@genres[genre] = name
+    end
   end
 
 end
